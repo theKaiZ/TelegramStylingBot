@@ -334,4 +334,4 @@ class StylingBot():
         self.get_event_list()
 
 if __name__ == '__main__':
-    StylingBot()
+     StylingBot()

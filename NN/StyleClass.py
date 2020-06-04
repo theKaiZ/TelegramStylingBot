@@ -19,7 +19,6 @@ def wandle_Bild_um(content_img,style_img, runs):
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
     assert style_img.size() == content_img.size(), \
         "we need to import style and content images of the same size"
-
     class ContentLoss(nn.Module):
         def __init__(self, target,):
             super(ContentLoss, self).__init__()
